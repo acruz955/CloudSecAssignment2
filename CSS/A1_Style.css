@@ -1,0 +1,199 @@
+#headerbox {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: whitesmoke;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+/*Home*/
+h1{
+    font-size: 40px;
+    font-family: "Cambria";
+}
+
+#headerbox #menu{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;    
+}
+
+#headerbox #name{
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+#headerbox a{
+    color:black;
+    display: block;
+    text-align: right;
+    float:right;
+    text-decoration: none;
+    font-family: "Cambria";
+    font-size: 20;
+    padding: 50px 30px;
+}
+
+
+#headerbox a:hover{
+    border-color: brown;
+    color: brown;
+}
+
+
+body {
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}  
+            
+
+
+
+#bodybox{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    flex-grow:1;
+    background-color: #E8E3DE;
+}
+
+#bodybox #picture{
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    padding-right: 40px;
+
+}
+
+#picture img{
+
+    height: 400px;
+    border-radius: 20px;
+}
+
+#bodybox #aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-grow: 1; 
+    width: 400px;
+}
+
+#bodybox #aboutme #title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: "Cambria";
+}
+
+#bodybox #aboutme #content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 150px;
+    font-family: "Cambria";
+    font-size: 20;
+ 
+}
+
+
+
+
+/*Resume*/
+#resumebody{
+    justify-content: left;
+    padding-bottom: 50px;
+    background-color: #E8E3DE;
+}
+#border {
+    border-style: double;
+    border-color: saddlebrown;
+    background-color: #E8E3DE;
+    margin: 30px;
+}
+
+body {
+    font-family: Georgia, serif;
+}  
+            
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+
+
+/*Contact*/
+
+
+
+
+#contactbody{
+    padding-top: 5%;
+    padding-bottom:10%;
+    background-color: #E8E3DE;
+}
+
+#contactbody #contactborder {
+    border-style: ridge;
+    border-color: saddlebrown;
+    background-color: #E8E3DE;
+    padding: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    
+}
+
+#contactbody #label{
+
+    font-family: "Cambria";
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#contactform{
+    border-style: double;
+    border-color: saddlebrown;
+    background-color: whitesmoke;
+    margin: 15px;
+    padding-left: 5%;
+    font-family: "Cambria";
+    font-size: 20px;
+}
+
+#contactbody #msg{
+    font-family: "Cambria";
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+
+/*Footer*/
+#footerbox {
+    display:block;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+
+
